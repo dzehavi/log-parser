@@ -1,0 +1,55 @@
+INFO : 2021-01-01 17:19:58.694 [  restartedMain] o.s.s.petclinic.PetClinicApplication     : Starting PetClinicApplication using Java 1.8.0_282 on Mainframe with PID 2501 (/spring-petclinic/target/classes)
+INFO : 2021-01-01 17:19:59.694 [  restartedMain] o.s.s.petclinic.PetClinicApplication     : No active profile set, falling back to default profiles: default
+INFO : 2021-01-01 17:19:59.694 [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO : 2021-01-01 17:20:58.694 [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO : 2021-01-01 17:21:58.694 [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO : 2021-01-01 18:22:58.694 [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+INFO : 2021-01-01 18:23:58.694 [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+INFO : 2021-01-01 18:24:58.694 [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+INFO : 2021-01-02 18:26:58.694 [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO : 2021-01-03 18:27:58.694 [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+INFO : 2021-01-04 19:19:58.694 [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2009 ms
+INFO : 2021-01-05 19:19:58.694 [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+INFO : 2021-01-06 19:19:58.694 [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+INFO : 2021-01-07 19:19:58.694 [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:8ae578f7-e726-4398-b20a-4485af246913'
+INFO : 2021-01-08 19:19:58.694 [  restartedMain] org.ehcache.core.EhcacheManager          : Cache 'vets' created in EhcacheManager.
+INFO : 2021-01-09 19:19:58.694 [  restartedMain] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+INFO : 2021-01-10 19:19:58.694 [  restartedMain] org.ehcache.jsr107.Eh107CacheManager     : Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=urn.X-ehcache.jsr107-default-config,Cache=vets
+INFO : 2021-01-11 19:19:58.694 [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO : 2021-01-12 19:19:58.694 [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO : 2021-01-13 19:19:58.694 [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO : 2021-01-14 19:19:58.694 [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+INFO : 2021-01-15 12:19:58.694 [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO : 2021-01-16 11:19:58.694 [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO : 2021-01-17 19:25:58.694 [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+INFO : 2021-01-18 15:19:58.694 [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+INFO : 2021-01-19 12:19:58.694 [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+INFO : 2021-01-20 11:19:58.694 [  restartedMain] o.s.s.petclinic.PetClinicApplication     : Started PetClinicApplication in 6.016 seconds (JVM running for 7.025)
+INFO : 2021-01-21 15:19:58.694 [on(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO : 2021-01-22 14:19:58.694 [on(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+INFO : 2021-01-23 12:19:58.694 [on(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+WARN : 2021-01-24 18:19:58.694 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h31m57s534ms).
+WARN : 2021-01-25 18:20:10.397 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12s367ms).
+WARN : 2021-01-26 19:20:34.298 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23s907ms).
+WARN : 2021-01-27 20:36:34.378 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m77ms).
+WARN : 2021-01-28 22:12:43.405 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m9s28ms).
+WARN : 2021-01-29 23:00:36.120 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m52s667ms).
+WARN : 2021-02-01 00:01:33.192 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h57s31ms).
+WARN : 2021-03-30 01:03:40.110 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m7s9ms).
+WARN : 2021-04-30 02:18:17.772 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m37s658ms).
+WARN : 2021-05-30 03:53:47.929 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m30s161ms). 
+WARN : 2021-06-30 04:58:46.940 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m59s11ms).
+WARN : 2021-07-30 06:23:20.290 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m33s349ms).
+WARN : 2021-09-30 12:12:32.194 localhost-startStop-1: CacheConfiguration: Cache: pagingCache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+ERROR : 2021-10-30 14:22:02.086 DefaultDispatcher-worker-1: TransactionAspectSupport: Application exception overridden by rollback exception
+	... suppressed 7 lines
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571) [kotlinx-coroutines-core-1.3.8.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738) [kotlinx-coroutines-core-1.3.8.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678) [kotlinx-coroutines-core-1.3.8.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665) [kotlinx-coroutines-core-1.3.8.jar:?]
+WARN : 2021-10-30 01:03:40.110 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m7s9ms).
+WARN : 2021-10-31 02:18:17.772 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m37s658ms).
+WARN : 2021-10-31 03:53:47.929 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m30s161ms).
+WARN : 2021-10-31 03:53:48.929 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m30s162ms).
+WARN : 2021-10-31 03:53:49.929 HikariPool-1 housekeeper: HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m30s163ms).
+INFO : 2021-10-31 12:04:20.693 [on(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Process Completed
