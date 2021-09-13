@@ -1,22 +1,22 @@
-#Log Parser
+# Log Parser
 
-##Features
-####Search between dates 
+## Features
+#### Search between dates 
 * The date format is: yyyy-MM-dd HH:mm:ss.SSS
 * Example:
 http://localhost:8080/log/search?from=2021-01-01%2017%3A19%3A58.694&to=2021-01-30%2017%3A19%3A58.694
 
-####Search by log level
+#### Search by log level
 * The options are: DEBUG | INFO | WARN | ERROR
 * Example:
 http://localhost:8080/log/search?level=WARN
 
-####Search by text
+#### Search by text
 * Searches for messages that contain the provided string
 * Example:
 http://localhost:8080/log/search?message=HikariPool%24HouseKeeper
 
-####A combo of the search options
+#### A combo of the search options
 * Example: 
 http://localhost:8080/log/search?from=2021-01-01%2017%3A19%3A58.694&to=2021-01-30%2017%3A19%3A58.694&level=INFO&text=hikari
 
